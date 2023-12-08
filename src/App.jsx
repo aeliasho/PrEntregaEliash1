@@ -1,7 +1,12 @@
-//import {useState, useEffect} fro, "react" para importar más de una cosa.
+import ItemListContainer from "./components/ItemListContainer"
+import NavBar from "./components/Navbar"
+
 const App = () => {
   return (
-    <div>Prubea</div>
+    <div>
+    <NavBar/>
+    <ItemListContainer greeting={"¡¡¡¡HOLA HOLAAAAAAA!!!!"} />
+    </div>
   )
 }
 
